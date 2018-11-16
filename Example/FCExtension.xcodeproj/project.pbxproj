@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1BC883D44241EBC5A7012B99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1BC883D44241EBC5A7012B99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FCExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		6B45169F3E0A448CF6BF10E4 /* Pods-FCExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCExtension_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FCExtension_Tests/Pods-FCExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		88DA6BCF8A36C033101AE9A9 /* Pods_FCExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		923EDDD9A034E53672AC6F83 /* Pods-FCExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCExtension_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FCExtension_Example/Pods-FCExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9505601623C7DC1498EC1C24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9505601623C7DC1498EC1C24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B9E47AC85C7D74E8294C2266 /* Pods-FCExtension_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCExtension_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FCExtension_Tests/Pods-FCExtension_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C3C98780FD6876C05AC488DB /* Pods_FCExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F9077642FB982693EF11DE /* Pods-FCExtension_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCExtension_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FCExtension_Example/Pods-FCExtension_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E55CC93647CEC2FD2FEC6F29 /* FCExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FCExtension.podspec; path = ../FCExtension.podspec; sourceTree = "<group>"; };
+		E55CC93647CEC2FD2FEC6F29 /* FCExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FCExtension.podspec; path = ../FCExtension.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R8TA8US7R7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = R8TA8US7R7;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -481,6 +483,7 @@
 			baseConfigurationReference = 923EDDD9A034E53672AC6F83 /* Pods-FCExtension_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8TA8US7R7;
 				INFOPLIST_FILE = FCExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -496,6 +499,7 @@
 			baseConfigurationReference = C3F9077642FB982693EF11DE /* Pods-FCExtension_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8TA8US7R7;
 				INFOPLIST_FILE = FCExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +514,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B45169F3E0A448CF6BF10E4 /* Pods-FCExtension_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R8TA8US7R7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +538,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B9E47AC85C7D74E8294C2266 /* Pods-FCExtension_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R8TA8US7R7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

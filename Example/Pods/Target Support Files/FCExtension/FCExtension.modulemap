@@ -1,0 +1,6 @@
+framework module FCExtension {
+  umbrella header "FCExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

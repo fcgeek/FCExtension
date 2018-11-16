@@ -1,0 +1,16 @@
+PODS:
+  - FCExtension (0.1.0)
+
+DEPENDENCIES:
+  - FCExtension (from `../`)
+
+EXTERNAL SOURCES:
+  FCExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FCExtension: d726129389608dd2c8441c66f79ff20f951ca84e
+
+PODFILE CHECKSUM: 7e2d1cf899926dd25407cf69b111d124ec5eefbd
+
+COCOAPODS: 1.5.3

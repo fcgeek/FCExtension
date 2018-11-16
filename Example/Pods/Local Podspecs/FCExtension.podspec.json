@@ -1,0 +1,22 @@
+{
+  "name": "FCExtension",
+  "version": "0.1.0",
+  "summary": "A short description of FCExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fcgeek/FCExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fcgeek": "ljlin1520@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/fcgeek/FCExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FCExtension/Classes/**/*"
+}
