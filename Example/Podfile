@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FCExtension_Example' do
+  pod 'FCExtension', :path => '../'
+
+  target 'FCExtension_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
